@@ -8,20 +8,21 @@
   <a href="https://discord.com/invite/clawd">Discord</a>
 </p>
 
-
-
 ## Contents
 
 - [Skills vs Plugins: What's the Difference?](#skills-vs-plugins-whats-the-difference)
 - [Official Plugins](#official-plugins)
 - [Channel Plugins](#channel-plugins)
+- [Smart Home & IoT](#smart-home--iot)
+- [Automotive](#automotive)
 - [Utility Plugins](#utility-plugins)
+- [Memory & AI](#memory--ai)
+- [Security & Governance](#security--governance)
+- [Multi-Agent & Coordination](#multi-agent--coordination)
 - [Observability & DevOps](#observability--devops)
 - [Health & Wellness](#health--wellness)
 - [Meta & Self-Improvement](#meta--self-improvement)
 - [Contributing](#contributing)
-
-
 
 ## Skills vs Plugins: What's the Difference?
 
@@ -81,7 +82,7 @@ extensions/
 While skills are great for quick integrations, **plugins are fundamentally more powerful**:
 
 | Capability | Skills | Plugins |
-||--||
+|------------|--------|---------|
 | Add new messaging channels | ❌ | ✅ |
 | Register custom agent tools | ❌ | ✅ |
 | Add CLI commands | ❌ | ✅ |
@@ -94,8 +95,6 @@ While skills are great for quick integrations, **plugins are fundamentally more 
 | Ship bundled skills | ❌ | ✅ |
 
 **Bottom line:** Skills tell the agent *how* to do things. Plugins give the agent *new abilities* it couldn't have otherwise.
-
-
 
 <details open>
 <summary><h2 style="display:inline">Official Plugins</h2></summary>
@@ -122,8 +121,6 @@ These ship with OpenClaw and can be enabled via config:
 
 </details>
 
-
-
 <details open>
 <summary><h2 style="display:inline">Channel Plugins</h2></summary>
 
@@ -131,10 +128,32 @@ Add new messaging platforms to OpenClaw.
 
 - [feishu](https://github.com/m1heng/clawdbot-feishu) - Feishu/Lark (飞书) channel with Stream mode, AI cards, docs/wiki/bitable tools. By [@m1heng](https://github.com/m1heng). `openclaw plugins install @m1heng-clawd/feishu`
 - [dingtalk](https://github.com/soimy/openclaw-channel-dingtalk) - DingTalk (钉钉) enterprise bot with Stream mode, AI interactive cards. By [@soimy](https://github.com/soimy). `openclaw plugins install https://github.com/soimy/openclaw-channel-dingtalk.git`
+- [cliq](https://github.com/IBIZDigital/openclaw-cliq-channel) - Zoho Cliq team chat with real-time messaging and @mention support. By [@IBIZDigital](https://github.com/IBIZDigital). `openclaw plugins install https://github.com/IBIZDigital/openclaw-cliq-channel.git`
+- [xmtp](https://github.com/flooredApe/openclaw-xmtp) - XMTP wallet messaging for AI agents — Web3 native communication. By [@flooredApe](https://github.com/flooredApe). `openclaw plugins install https://github.com/flooredApe/openclaw-xmtp.git`
+- [irc](https://github.com/kcherry497/OpenClaw-IRC-Plugin) - IRC interface with KISS security principles. By [@kcherry497](https://github.com/kcherry497). `openclaw plugins install https://github.com/kcherry497/OpenClaw-IRC-Plugin.git`
+- [qq](https://github.com/limouren01/openclaw_qq_plugin) - QQ messaging integration (Chinese). By [@limouren01](https://github.com/limouren01). `openclaw plugins install https://github.com/limouren01/openclaw_qq_plugin.git`
+- [wechat](https://github.com/magicwang1111/openclaw-wechat-plugin) - WeChat messaging integration. By [@magicwang1111](https://github.com/magicwang1111). `openclaw plugins install https://github.com/magicwang1111/openclaw-wechat-plugin.git`
 
 </details>
 
+<details open>
+<summary><h2 style="display:inline">Smart Home & IoT</h2></summary>
 
+Connect your agent to smart home platforms and IoT devices.
+
+- [home-assistant](https://github.com/techartdev/OpenClawHomeAssistant) - Home Assistant add-on — run OpenClaw directly in your HA instance with full entity access. By [@techartdev](https://github.com/techartdev). ⭐ **34 stars**
+- [webhook-bridge](https://github.com/robb99/clay-webhook-bridge) - Event-driven Home Assistant → OpenClaw webhook bridge for automations. By [@robb99](https://github.com/robb99). `openclaw plugins install https://github.com/robb99/clay-webhook-bridge.git`
+
+</details>
+
+<details open>
+<summary><h2 style="display:inline">Automotive</h2></summary>
+
+Control and monitor vehicles from your agent.
+
+- [tescmd](https://github.com/Oceanswave/openclaw-tescmd) - Tesla vehicle control and telemetry via tescmd — lock/unlock, climate, charging, location. By [@Oceanswave](https://github.com/Oceanswave). `openclaw plugins install https://github.com/Oceanswave/openclaw-tescmd.git`
+
+</details>
 
 <details open>
 <summary><h2 style="display:inline">Utility Plugins</h2></summary>
@@ -142,10 +161,40 @@ Add new messaging platforms to OpenClaw.
 Enhance the gateway experience with quality-of-life improvements.
 
 - [better-gateway](https://github.com/ThisIsJeron/openclaw-better-gateway) - Enhanced gateway UI with auto-reconnect, connection status indicator, network awareness. By [@ThisIsJeron](https://github.com/ThisIsJeron). `openclaw plugins install @thisisjeron/openclaw-better-gateway`
+- [model-selector](https://github.com/bmbsystemsdir/openclaw-model-selector) - Smart model routing — suggest → confirm → execute → auto-return to default. By [@bmbsystemsdir](https://github.com/bmbsystemsdir). `openclaw plugins install https://github.com/bmbsystemsdir/openclaw-model-selector.git`
+- [compaction-context](https://github.com/robertcuadra/compaction-context) - Preserve recent conversation context across compaction cycles. By [@robertcuadra](https://github.com/robertcuadra). `openclaw plugins install https://github.com/robertcuadra/compaction-context.git`
+- [manager](https://github.com/ClariSortAi/openclaw-manager-plugin) - Intelligent installation, configuration, and management for OpenClaw instances. By [@ClariSortAi](https://github.com/ClariSortAi). `openclaw plugins install https://github.com/ClariSortAi/openclaw-manager-plugin.git`
+- [2do](https://github.com/chuckiefan/moltbot-plugin-2do) - 2Do task app integration — send tasks via natural language to 2Do's Email-to-Task feature. By [@chuckiefan](https://github.com/chuckiefan). `openclaw plugins install https://github.com/chuckiefan/moltbot-plugin-2do.git`
 
 </details>
 
+<details open>
+<summary><h2 style="display:inline">Memory & AI</h2></summary>
 
+Advanced memory backends and AI enhancements.
+
+- [unified-memory](https://github.com/bmbsystemsdir/openclaw-unified-plugins) - Unified memory layer combining Graphiti knowledge graphs with Beads temporal memory. By [@bmbsystemsdir](https://github.com/bmbsystemsdir). `openclaw plugins install https://github.com/bmbsystemsdir/openclaw-unified-plugins.git`
+- [memos-cloud](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin) - MemOS cloud-based memory backend for cross-device persistence. By [@MemTensor](https://github.com/MemTensor). `openclaw plugins install https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin.git`
+
+</details>
+
+<details open>
+<summary><h2 style="display:inline">Security & Governance</h2></summary>
+
+Add guardrails and governance to your agent.
+
+- [guardspine](https://github.com/DNYoussef/guardspine-openclaw) - Deny-by-default tool gating with L0-L4 risk tiers, 3-model council verification, and evidence packs. By [@DNYoussef](https://github.com/DNYoussef). `openclaw plugins install https://github.com/DNYoussef/guardspine-openclaw.git`
+
+</details>
+
+<details open>
+<summary><h2 style="display:inline">Multi-Agent & Coordination</h2></summary>
+
+Run distributed agents and coordinate across instances.
+
+- [ansible](https://github.com/likesjx/openclaw-plugin-ansible) - Distributed coordination layer — one agent, multiple bodies across machines. By [@likesjx](https://github.com/likesjx). `openclaw plugins install https://github.com/likesjx/openclaw-plugin-ansible.git`
+
+</details>
 
 <details open>
 <summary><h2 style="display:inline">Observability & DevOps</h2></summary>
@@ -156,8 +205,6 @@ Monitor, debug, and manage your OpenClaw instances.
 
 </details>
 
-
-
 <details open>
 <summary><h2 style="display:inline">Health & Wellness</h2></summary>
 
@@ -166,8 +213,6 @@ Integrate health and fitness data into your agent conversations.
 - [ouraclaw](https://github.com/rickybloomfield/OuraClaw) - Oura Ring integration — sleep, readiness, activity, stress data with scheduled summaries. By [@rickybloomfield](https://github.com/rickybloomfield). `openclaw plugins install @rickybloomfield/ouraclaw`
 
 </details>
-
-
 
 <details open>
 <summary><h2 style="display:inline">Meta & Self-Improvement</h2></summary>
@@ -178,13 +223,9 @@ Plugins that enhance OpenClaw's ability to learn and grow.
 
 </details>
 
-
-
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this list.
-
-
 
 ## Related Resources
 
@@ -192,8 +233,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this 
 - [ClawHub](https://clawhub.com) — Official skill registry
 - [Plugin Documentation](https://docs.openclaw.ai/plugin) — Official plugin authoring guide
 - [Plugin Agent Tools](https://docs.openclaw.ai/plugins/agent-tools) — How to add agent tools in plugins
-
-
 
 ## License
 
