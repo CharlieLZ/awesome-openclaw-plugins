@@ -97,18 +97,17 @@ While skills are great for quick integrations, **plugins are fundamentally more 
 
 ---
 
-## Official Plugins
+<details open>
+<summary><h2 style="display:inline">Official Plugins</h2></summary>
 
 Plugins maintained by the OpenClaw team, available under the `@openclaw/*` scope.
 
-| Plugin | Description | Install |
-|--------|-------------|---------|
-| [voice-call](https://docs.openclaw.ai/plugins/voice-call) | Voice calling via Twilio (or log fallback for dev) | `openclaw plugins install @openclaw/voice-call` |
-| [matrix](https://docs.openclaw.ai/channels/matrix) | Matrix chat protocol channel | `openclaw plugins install @openclaw/matrix` |
-| [nostr](https://docs.openclaw.ai/channels/nostr) | Nostr decentralized protocol channel | `openclaw plugins install @openclaw/nostr` |
-| [zalo](https://docs.openclaw.ai/channels/zalo) | Zalo messaging (Vietnam) | `openclaw plugins install @openclaw/zalo` |
-| [zalouser](https://docs.openclaw.ai/plugins/zalouser) | Zalo Personal account integration | `openclaw plugins install @openclaw/zalouser` |
-| [msteams](https://docs.openclaw.ai/channels/msteams) | Microsoft Teams channel | `openclaw plugins install @openclaw/msteams` |
+- [voice-call](https://docs.openclaw.ai/plugins/voice-call) - Voice calling via Twilio (or log fallback for dev). `openclaw plugins install @openclaw/voice-call`
+- [matrix](https://docs.openclaw.ai/channels/matrix) - Matrix chat protocol channel. `openclaw plugins install @openclaw/matrix`
+- [nostr](https://docs.openclaw.ai/channels/nostr) - Nostr decentralized protocol channel. `openclaw plugins install @openclaw/nostr`
+- [zalo](https://docs.openclaw.ai/channels/zalo) - Zalo messaging (Vietnam). `openclaw plugins install @openclaw/zalo`
+- [zalouser](https://docs.openclaw.ai/plugins/zalouser) - Zalo Personal account integration. `openclaw plugins install @openclaw/zalouser`
+- [msteams](https://docs.openclaw.ai/channels/msteams) - Microsoft Teams channel. `openclaw plugins install @openclaw/msteams`
 
 ### Bundled Plugins
 
@@ -121,74 +120,69 @@ These ship with OpenClaw and can be enabled via config:
 - **qwen-portal-auth** — Qwen OAuth provider
 - **copilot-proxy** — VS Code Copilot proxy bridge
 
+</details>
+
 ---
 
-## Channel Plugins
+<details open>
+<summary><h2 style="display:inline">Channel Plugins</h2></summary>
 
 Add new messaging platforms to OpenClaw.
 
-| Plugin | Description | Author | Install |
-|--------|-------------|--------|---------|
-| [feishu](https://github.com/m1heng/clawdbot-feishu) | Feishu/Lark (飞书) channel with Stream mode, AI cards, docs/wiki/bitable tools | [@m1heng](https://github.com/m1heng) | `openclaw plugins install @m1heng-clawd/feishu` |
-| [dingtalk](https://github.com/soimy/openclaw-channel-dingtalk) | DingTalk (钉钉) enterprise bot with Stream mode, AI interactive cards | [@soimy](https://github.com/soimy) | `openclaw plugins install https://github.com/soimy/openclaw-channel-dingtalk.git` |
+- [feishu](https://github.com/m1heng/clawdbot-feishu) - Feishu/Lark (飞书) channel with Stream mode, AI cards, docs/wiki/bitable tools. By [@m1heng](https://github.com/m1heng). `openclaw plugins install @m1heng-clawd/feishu`
+- [dingtalk](https://github.com/soimy/openclaw-channel-dingtalk) - DingTalk (钉钉) enterprise bot with Stream mode, AI interactive cards. By [@soimy](https://github.com/soimy). `openclaw plugins install https://github.com/soimy/openclaw-channel-dingtalk.git`
+
+</details>
 
 ---
 
-## Utility Plugins
+<details open>
+<summary><h2 style="display:inline">Utility Plugins</h2></summary>
 
 Enhance the gateway experience with quality-of-life improvements.
 
-| Plugin | Description | Author | Install |
-|--------|-------------|--------|---------|
-| [better-gateway](https://github.com/ThisIsJeron/openclaw-better-gateway) | Enhanced gateway UI with auto-reconnect, connection status indicator, network awareness | [@ThisIsJeron](https://github.com/ThisIsJeron) | `openclaw plugins install @thisisjeron/openclaw-better-gateway` |
+- [better-gateway](https://github.com/ThisIsJeron/openclaw-better-gateway) - Enhanced gateway UI with auto-reconnect, connection status indicator, network awareness. By [@ThisIsJeron](https://github.com/ThisIsJeron). `openclaw plugins install @thisisjeron/openclaw-better-gateway`
+
+</details>
 
 ---
 
-## Observability & DevOps
+<details open>
+<summary><h2 style="display:inline">Observability & DevOps</h2></summary>
 
 Monitor, debug, and manage your OpenClaw instances.
 
-| Plugin | Description | Author | Install |
-|--------|-------------|--------|---------|
-| [observatory](https://github.com/ThisIsJeron/openclaw-observatory) | Self-hosted observability dashboard — monitor sessions, context windows, costs, and failures across multiple gateways | [@ThisIsJeron](https://github.com/ThisIsJeron) | `openclaw plugins install @thisisjeron/openclaw-observatory` |
+- [observatory](https://github.com/ThisIsJeron/openclaw-observatory) - Self-hosted observability dashboard — monitor sessions, context windows, costs, and failures across multiple gateways. By [@ThisIsJeron](https://github.com/ThisIsJeron). `openclaw plugins install @thisisjeron/openclaw-observatory`
+
+</details>
 
 ---
 
-## Health & Wellness
+<details open>
+<summary><h2 style="display:inline">Health & Wellness</h2></summary>
 
 Integrate health and fitness data into your agent conversations.
 
-| Plugin | Description | Author | Install |
-|--------|-------------|--------|---------|
-| [ouraclaw](https://github.com/rickybloomfield/OuraClaw) | Oura Ring integration — sleep, readiness, activity, stress data with scheduled summaries | [@rickybloomfield](https://github.com/rickybloomfield) | `openclaw plugins install @rickybloomfield/ouraclaw` |
+- [ouraclaw](https://github.com/rickybloomfield/OuraClaw) - Oura Ring integration — sleep, readiness, activity, stress data with scheduled summaries. By [@rickybloomfield](https://github.com/rickybloomfield). `openclaw plugins install @rickybloomfield/ouraclaw`
+
+</details>
 
 ---
 
-## Meta & Self-Improvement
+<details open>
+<summary><h2 style="display:inline">Meta & Self-Improvement</h2></summary>
 
 Plugins that enhance OpenClaw's ability to learn and grow.
 
-| Plugin | Description | Author | Install |
-|--------|-------------|--------|---------|
-| [foundry](https://github.com/lekt9/openclaw-foundry) | Self-writing meta-extension — observes workflows, learns patterns, writes new extensions and skills | [@lekt9](https://github.com/lekt9) | `openclaw plugins install @getfoundry/foundry-openclaw` |
+- [foundry](https://github.com/lekt9/openclaw-foundry) - Self-writing meta-extension — observes workflows, learns patterns, writes new extensions and skills. By [@lekt9](https://github.com/lekt9). `openclaw plugins install @getfoundry/foundry-openclaw`
+
+</details>
 
 ---
 
 ## Contributing
 
-Contributions welcome! To add a plugin:
-
-1. Fork this repository
-2. Add your plugin to the appropriate category in `README.md`
-3. Include: name, description, author, and install command
-4. Submit a pull request
-
-### Plugin Requirements
-
-- Must have a valid `openclaw.plugin.json` manifest
-- Should be installable via `openclaw plugins install`
-- Include clear documentation (README)
-- Be actively maintained
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this list.
 
 ---
 
