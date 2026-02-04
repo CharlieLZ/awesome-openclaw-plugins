@@ -3,7 +3,6 @@
 > A curated list of plugins for [OpenClaw](https://github.com/openclaw/openclaw), the open-source personal AI assistant.
 
 <p align="center">
-  <a href="https://openclaw.ai">Website</a> •
   <a href="https://docs.openclaw.ai/plugin">Plugin Docs</a> •
   <a href="https://github.com/openclaw/openclaw">GitHub</a> •
   <a href="https://discord.com/invite/clawd">Discord</a>
