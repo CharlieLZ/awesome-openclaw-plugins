@@ -8,7 +8,7 @@
   <a href="https://discord.com/invite/clawd">Discord</a>
 </p>
 
----
+
 
 ## Contents
 
@@ -21,7 +21,7 @@
 - [Meta & Self-Improvement](#meta--self-improvement)
 - [Contributing](#contributing)
 
----
+
 
 ## Skills vs Plugins: What's the Difference?
 
@@ -81,7 +81,7 @@ extensions/
 While skills are great for quick integrations, **plugins are fundamentally more powerful**:
 
 | Capability | Skills | Plugins |
-|------------|--------|---------|
+||--||
 | Add new messaging channels | ❌ | ✅ |
 | Register custom agent tools | ❌ | ✅ |
 | Add CLI commands | ❌ | ✅ |
@@ -95,7 +95,7 @@ While skills are great for quick integrations, **plugins are fundamentally more 
 
 **Bottom line:** Skills tell the agent *how* to do things. Plugins give the agent *new abilities* it couldn't have otherwise.
 
----
+
 
 <details open>
 <summary><h2 style="display:inline">Official Plugins</h2></summary>
@@ -122,7 +122,7 @@ These ship with OpenClaw and can be enabled via config:
 
 </details>
 
----
+
 
 <details open>
 <summary><h2 style="display:inline">Channel Plugins</h2></summary>
@@ -134,7 +134,7 @@ Add new messaging platforms to OpenClaw.
 
 </details>
 
----
+
 
 <details open>
 <summary><h2 style="display:inline">Utility Plugins</h2></summary>
@@ -145,7 +145,7 @@ Enhance the gateway experience with quality-of-life improvements.
 
 </details>
 
----
+
 
 <details open>
 <summary><h2 style="display:inline">Observability & DevOps</h2></summary>
@@ -156,7 +156,7 @@ Monitor, debug, and manage your OpenClaw instances.
 
 </details>
 
----
+
 
 <details open>
 <summary><h2 style="display:inline">Health & Wellness</h2></summary>
@@ -167,7 +167,7 @@ Integrate health and fitness data into your agent conversations.
 
 </details>
 
----
+
 
 <details open>
 <summary><h2 style="display:inline">Meta & Self-Improvement</h2></summary>
@@ -178,13 +178,13 @@ Plugins that enhance OpenClaw's ability to learn and grow.
 
 </details>
 
----
+
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this list.
 
----
+
 
 ## Related Resources
 
@@ -193,7 +193,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this 
 - [Plugin Documentation](https://docs.openclaw.ai/plugin) — Official plugin authoring guide
 - [Plugin Agent Tools](https://docs.openclaw.ai/plugins/agent-tools) — How to add agent tools in plugins
 
----
+
 
 ## License
 
