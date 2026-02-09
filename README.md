@@ -133,6 +133,7 @@ Add new messaging platforms to OpenClaw.
 - [irc](https://github.com/kcherry497/OpenClaw-IRC-Plugin) - IRC interface with KISS security principles. By [@kcherry497](https://github.com/kcherry497). `openclaw plugins install https://github.com/kcherry497/OpenClaw-IRC-Plugin.git`
 - [qq](https://github.com/limouren01/openclaw_qq_plugin) - QQ messaging integration (Chinese). By [@limouren01](https://github.com/limouren01). `openclaw plugins install https://github.com/limouren01/openclaw_qq_plugin.git`
 - [wechat](https://github.com/magicwang1111/openclaw-wechat-plugin) - WeChat messaging integration. By [@magicwang1111](https://github.com/magicwang1111). `openclaw plugins install https://github.com/magicwang1111/openclaw-wechat-plugin.git`
+- [clawdtalk](https://github.com/team-telnyx/clawdtalk-client) - Phone calling and SMS for OpenClaw via Telnyx. Make and receive phone calls and SMS messages from your AI agent with full calendar, Jira, and web search integration. By [@team-telnyx](https://github.com/team-telnyx). `openclaw plugins install @team-telnyx/clawdtalk`
 
 </details>
 
