@@ -165,6 +165,7 @@ Enhance the gateway experience with quality-of-life improvements.
 - [model-selector](https://github.com/bmbsystemsdir/openclaw-model-selector) - Smart model routing — suggest → confirm → execute → auto-return to default. By [@bmbsystemsdir](https://github.com/bmbsystemsdir). `openclaw plugins install https://github.com/bmbsystemsdir/openclaw-model-selector.git`
 - [compaction-context](https://github.com/robertcuadra/compaction-context) - Preserve recent conversation context across compaction cycles. By [@robertcuadra](https://github.com/robertcuadra). `openclaw plugins install https://github.com/robertcuadra/compaction-context.git`
 - [manager](https://github.com/ClariSortAi/openclaw-manager-plugin) - Intelligent installation, configuration, and management for OpenClaw instances. By [@ClariSortAi](https://github.com/ClariSortAi). `openclaw plugins install https://github.com/ClariSortAi/openclaw-manager-plugin.git`
+- [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - Post tweets, reply, like, retweet, follow, DM & more from your chat. 40+ X/Twitter endpoints via Xquik. By [@Xquik-dev](https://github.com/Xquik-dev). `openclaw plugins install @xquik/tweetclaw`
 - [2do](https://github.com/chuckiefan/moltbot-plugin-2do) - 2Do task app integration — send tasks via natural language to 2Do's Email-to-Task feature. By [@chuckiefan](https://github.com/chuckiefan). `openclaw plugins install https://github.com/chuckiefan/moltbot-plugin-2do.git`
 
 </details>
