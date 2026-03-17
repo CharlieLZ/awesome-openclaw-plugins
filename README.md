@@ -248,5 +248,4 @@ Plugins for social publishing, scheduling, and audience engagement.
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| [@senditapp/openclaw](https://github.com/Shree-git/sendit) | AI-native social publishing with 41 tools for scheduling, analytics, campaigns, CRM, inbox, and workflows across 32 platforms. | `openclaw plugins install @senditapp/openclaw` |
-
+| [@senditapp/openclaw](https://www.npmjs.com/package/@senditapp/openclaw) | AI-native social publishing with 41 tools for scheduling, analytics, campaigns, CRM, inbox, and workflows across 32 platforms. | `openclaw plugins install @senditapp/openclaw` |
