@@ -22,6 +22,7 @@
 - [Observability & DevOps](#observability--devops)
 - [Health & Wellness](#health--wellness)
 - [Meta & Self-Improvement](#meta--self-improvement)
+- [Social Media & Content](#social-media--content)
 - [Contributing](#contributing)
 
 ## Skills vs Plugins: What's the Difference?
@@ -225,6 +226,15 @@ Plugins that enhance OpenClaw's ability to learn and grow.
 
 </details>
 
+<details open>
+<summary><h2 style="display:inline">Social Media & Content</h2></summary>
+
+Plugins for social publishing, scheduling, and audience engagement.
+
+- [sendit](https://www.npmjs.com/package/@senditapp/openclaw) - AI-native social publishing with 41 tools for scheduling, analytics, campaigns, CRM, inbox, and workflow automation across 32 platforms. By [@Shree-git](https://github.com/Shree-git). `openclaw plugins install @senditapp/openclaw`
+
+</details>
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this list.
@@ -241,11 +251,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the authors have waived all copyright and related rights to this work.
-
-## Social Media & Content
-
-Plugins for social publishing, scheduling, and audience engagement.
-
-| Plugin | Description | Install |
-|--------|-------------|---------|
-| [@senditapp/openclaw](https://www.npmjs.com/package/@senditapp/openclaw) | AI-native social publishing with 41 tools for scheduling, analytics, campaigns, CRM, inbox, and workflows across 32 platforms. | `openclaw plugins install @senditapp/openclaw` |
