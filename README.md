@@ -241,3 +241,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding plugins to this 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the authors have waived all copyright and related rights to this work.
+
+## Social Media & Content
+
+Plugins for social publishing, scheduling, and audience engagement.
+
+| Plugin | Description | Install |
+|--------|-------------|---------|
+| [@senditapp/openclaw](https://github.com/Shree-git/sendit) | AI-native social publishing with 41 tools for scheduling, analytics, campaigns, CRM, inbox, and workflows across 32 platforms. | `openclaw plugins install @senditapp/openclaw` |
+
