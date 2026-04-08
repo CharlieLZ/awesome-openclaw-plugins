@@ -167,6 +167,7 @@ Enhance the gateway experience with quality-of-life improvements.
 - [compaction-context](https://github.com/robertcuadra/compaction-context) - Preserve recent conversation context across compaction cycles. By [@robertcuadra](https://github.com/robertcuadra). `openclaw plugins install https://github.com/robertcuadra/compaction-context.git`
 - [discourse-openclaw](https://github.com/pranciskus/discourse-openclaw) - Discourse forum integration — search, read, create topics/posts, find unanswered questions. By [@pranciskus](https://github.com/pranciskus). `openclaw plugins install openclaw-discourse`
 - [manager](https://github.com/ClariSortAi/openclaw-manager-plugin) - Intelligent installation, configuration, and management for OpenClaw instances. By [@ClariSortAi](https://github.com/ClariSortAi). `openclaw plugins install https://github.com/ClariSortAi/openclaw-manager-plugin.git`
+- [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - Post tweets, reply, like, retweet, follow, DM & more from your chat. 40+ X/Twitter endpoints via Xquik. By [@Xquik-dev](https://github.com/Xquik-dev). `openclaw plugins install @xquik/tweetclaw`
 - [2do](https://github.com/chuckiefan/moltbot-plugin-2do) - 2Do task app integration — send tasks via natural language to 2Do's Email-to-Task feature. By [@chuckiefan](https://github.com/chuckiefan). `openclaw plugins install https://github.com/chuckiefan/moltbot-plugin-2do.git`
 
 </details>
