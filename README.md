@@ -22,6 +22,7 @@
 - [Observability & DevOps](#observability--devops)
 - [Health & Wellness](#health--wellness)
 - [Meta & Self-Improvement](#meta--self-improvement)
+- [Social Media & Content](#social-media--content)
 - [Contributing](#contributing)
 
 ## Skills vs Plugins: What's the Difference?
@@ -134,6 +135,7 @@ Add new messaging platforms to OpenClaw.
 - [qq](https://github.com/limouren01/openclaw_qq_plugin) - QQ messaging integration (Chinese). By [@limouren01](https://github.com/limouren01). `openclaw plugins install https://github.com/limouren01/openclaw_qq_plugin.git`
 - [wechat](https://github.com/magicwang1111/openclaw-wechat-plugin) - WeChat messaging integration. By [@magicwang1111](https://github.com/magicwang1111). `openclaw plugins install https://github.com/magicwang1111/openclaw-wechat-plugin.git`
 - [clawdtalk](https://github.com/team-telnyx/clawdtalk-client) - Phone calling and SMS for OpenClaw via Telnyx. Make and receive phone calls and SMS messages from your AI agent with full calendar, Jira, and web search integration. By [@team-telnyx](https://github.com/team-telnyx). `openclaw plugins install @team-telnyx/clawdtalk`
+- [eclaw](https://github.com/HankHuang0516/openclaw-channel-eclaw) - E-Claw AI live wallpaper chat — connect your bot to animated Android wallpaper characters (lobsters, pigs). By [@HankHuang0516](https://github.com/HankHuang0516). `openclaw plugins install @eclaw/openclaw-channel`
 
 </details>
 
@@ -164,8 +166,11 @@ Enhance the gateway experience with quality-of-life improvements.
 - [better-gateway](https://github.com/ThisIsJeron/openclaw-better-gateway) - Enhanced gateway UI with auto-reconnect, connection status indicator, network awareness. By [@ThisIsJeron](https://github.com/ThisIsJeron). `openclaw plugins install @thisisjeron/openclaw-better-gateway`
 - [model-selector](https://github.com/bmbsystemsdir/openclaw-model-selector) - Smart model routing — suggest → confirm → execute → auto-return to default. By [@bmbsystemsdir](https://github.com/bmbsystemsdir). `openclaw plugins install https://github.com/bmbsystemsdir/openclaw-model-selector.git`
 - [compaction-context](https://github.com/robertcuadra/compaction-context) - Preserve recent conversation context across compaction cycles. By [@robertcuadra](https://github.com/robertcuadra). `openclaw plugins install https://github.com/robertcuadra/compaction-context.git`
+- [discourse-openclaw](https://github.com/pranciskus/discourse-openclaw) - Discourse forum integration — search, read, create topics/posts, find unanswered questions. By [@pranciskus](https://github.com/pranciskus). `openclaw plugins install openclaw-discourse`
 - [manager](https://github.com/ClariSortAi/openclaw-manager-plugin) - Intelligent installation, configuration, and management for OpenClaw instances. By [@ClariSortAi](https://github.com/ClariSortAi). `openclaw plugins install https://github.com/ClariSortAi/openclaw-manager-plugin.git`
+- [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - Post tweets, reply, like, retweet, follow, DM & more from your chat. 40+ X/Twitter endpoints via Xquik. By [@Xquik-dev](https://github.com/Xquik-dev). `openclaw plugins install @xquik/tweetclaw`
 - [2do](https://github.com/chuckiefan/moltbot-plugin-2do) - 2Do task app integration — send tasks via natural language to 2Do's Email-to-Task feature. By [@chuckiefan](https://github.com/chuckiefan). `openclaw plugins install https://github.com/chuckiefan/moltbot-plugin-2do.git`
+- [clawcollect](https://github.com/ruan11223344/clawcollect) - Hosted form collection bridge — open a form from chat, share a public link, check response progress, and summarize results. Supports managed and self-hosted (Cloudflare Workers + D1) backends. By [@ruan11223344](https://github.com/ruan11223344). `openclaw plugins install @clawcollect/clawcollect`
 
 </details>
 
@@ -185,6 +190,7 @@ Advanced memory backends and AI enhancements.
 Add guardrails and governance to your agent.
 
 - [guardspine](https://github.com/DNYoussef/guardspine-openclaw) - Deny-by-default tool gating with L0-L4 risk tiers, 3-model council verification, and evidence packs. By [@DNYoussef](https://github.com/DNYoussef). `openclaw plugins install https://github.com/DNYoussef/guardspine-openclaw.git`
+- [air-trust](https://github.com/airblackbox/openclaw-air-trust) - EU AI Act compliance layer — HMAC-SHA256 tamper-evident audit chains, consent gating for destructive tools, PII/credential tokenization, and 15-pattern prompt injection detection. 6 agent tools + 3 event hooks. By [@airblackbox](https://github.com/airblackbox). `npm install openclaw-air-trust`
 
 </details>
 
@@ -203,7 +209,7 @@ Run distributed agents and coordinate across instances.
 Monitor, debug, and manage your OpenClaw instances.
 
 - [observatory](https://github.com/ThisIsJeron/openclaw-observatory) - Self-hosted observability dashboard — monitor sessions, context windows, costs, and failures across multiple gateways. By [@ThisIsJeron](https://github.com/ThisIsJeron). `openclaw plugins install @thisisjeron/openclaw-observatory`
-- [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Self-hosted, local-first, supports 28+ LLM models. Website: [manifest.build](https://manifest.build). By [@mnfst](https://github.com/mnfst). `openclaw plugins install https://github.com/mnfst/manifest.git`
+- [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Self-hosted, local-first, supports 28+ LLM models. Website: [manifest.build](https://manifest.build). By [@mnfst](https://github.com/mnfst). `openclaw plugins install manifest`
 - [opik-openclaw](https://github.com/comet-ml/opik-openclaw) - OpenClaw plugin that exports agent traces to Opik with LLM/tool/sub-agent spans plus usage and cost metadata. By [@comet-ml](https://github.com/comet-ml). `openclaw plugins install @opik/opik-openclaw`
 
 </details>
@@ -223,6 +229,15 @@ Integrate health and fitness data into your agent conversations.
 Plugins that enhance OpenClaw's ability to learn and grow.
 
 - [foundry](https://github.com/lekt9/openclaw-foundry) - Self-writing meta-extension — observes workflows, learns patterns, writes new extensions and skills. By [@lekt9](https://github.com/lekt9). `openclaw plugins install @getfoundry/foundry-openclaw`
+
+</details>
+
+<details open>
+<summary><h2 style="display:inline">Social Media & Content</h2></summary>
+
+Plugins for social publishing, scheduling, and audience engagement.
+
+- [sendit](https://www.npmjs.com/package/@senditapp/openclaw) - AI-native social publishing with 41 tools for scheduling, analytics, campaigns, CRM, inbox, and workflow automation across 32 platforms. By [@Shree-git](https://github.com/Shree-git). `openclaw plugins install @senditapp/openclaw`
 
 </details>
 
