@@ -22,6 +22,7 @@
 - [Observability & DevOps](#observability--devops)
 - [Health & Wellness](#health--wellness)
 - [Meta & Self-Improvement](#meta--self-improvement)
+- [Social Media & Content](#social-media--content)
 - [Contributing](#contributing)
 
 ## Skills vs Plugins: What's the Difference?
@@ -227,6 +228,15 @@ Integrate health and fitness data into your agent conversations.
 Plugins that enhance OpenClaw's ability to learn and grow.
 
 - [foundry](https://github.com/lekt9/openclaw-foundry) - Self-writing meta-extension — observes workflows, learns patterns, writes new extensions and skills. By [@lekt9](https://github.com/lekt9). `openclaw plugins install @getfoundry/foundry-openclaw`
+
+</details>
+
+<details open>
+<summary><h2 style="display:inline">Social Media & Content</h2></summary>
+
+Plugins for social publishing, scheduling, and audience engagement.
+
+- [sendit](https://www.npmjs.com/package/@senditapp/openclaw) - AI-native social publishing with 41 tools for scheduling, analytics, campaigns, CRM, inbox, and workflow automation across 32 platforms. By [@Shree-git](https://github.com/Shree-git). `openclaw plugins install @senditapp/openclaw`
 
 </details>
 
