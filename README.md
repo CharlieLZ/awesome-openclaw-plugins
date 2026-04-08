@@ -203,7 +203,7 @@ Run distributed agents and coordinate across instances.
 Monitor, debug, and manage your OpenClaw instances.
 
 - [observatory](https://github.com/ThisIsJeron/openclaw-observatory) - Self-hosted observability dashboard — monitor sessions, context windows, costs, and failures across multiple gateways. By [@ThisIsJeron](https://github.com/ThisIsJeron). `openclaw plugins install @thisisjeron/openclaw-observatory`
-- [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Self-hosted, local-first, supports 28+ LLM models. Website: [manifest.build](https://manifest.build). By [@mnfst](https://github.com/mnfst). `openclaw plugins install https://github.com/mnfst/manifest.git`
+- [Manifest](https://github.com/mnfst/manifest) - Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage. Self-hosted, local-first, supports 28+ LLM models. Website: [manifest.build](https://manifest.build). By [@mnfst](https://github.com/mnfst). `openclaw plugins install manifest`
 
 </details>
 
